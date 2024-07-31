@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@500&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Weather Details</h1>
+
+         <div class="topDiv">
+            <form data-searchForm>
+                <div class="searchCity">
+                    <input type="text" id="cityName" data-searchInput>
+                </div>
+        
+                 <!-- <div class="search">
+                    <i class="fa-solid fa-magnifying-glass" cityFind></i>
+                 </div> -->
+                <button class="search" type="submit">
+                    <i class="fa-solid fa-magnifying-glass" cityFind></i>
+                </button>
+            </form>
+         </div>
+
+         <div class="Location">
+            <h2 locationCity>Location</h2>
+         </div>
+
+         <!-- Display the weather details here -->
+          <div class="Display"> 
+            <div class="div1">
+                <h2>Temperature</h2>
+                <img src="./Image/temp.png" alt="" width="60px">
+                <p data-Temperature>0</p>
+            </div>
+            <div class="div2">
+                <h2>Wind</h2>
+                <img src="./Image/wind.png" alt="" width="60px">
+                <p data-Wind>0</p>
+            </div>
+            <div class="div3">
+                <h2>Humidity</h2>
+                <img src="./Image/humidity.png" alt="" width="60px">
+                <p data-Humidity>0</p>
+            </div>
+          </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/5271f56b59.js" crossorigin="anonymous"></script>
+</body>
+</html>
