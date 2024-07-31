@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Image/Cloud.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.topDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchCity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.searchCity input {
+    width: 700px;
+    height: 60px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+i {
+    color: white;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.Location {
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.Display {
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-around;
+}
+
+.div1 {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.div1,
+.div2,
+.div3, h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.div1,
+.div2, img {
+    padding-top: 0px;
+}
+.div2 {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.div3 {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    background: transparent;
+    border: none;
+}
